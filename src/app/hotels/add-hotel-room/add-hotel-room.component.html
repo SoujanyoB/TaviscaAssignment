@@ -1,0 +1,22 @@
+<div class="add-room-guests-container">
+    <div class="room-number">
+        Room
+        <ng-content></ng-content>
+    </div>
+    <div class="adults-count">
+        <p>Adults</p>
+        <div class="adults-counter-wrapper">
+            <i class="fa-solid fa-minus" #adultCountDecrement></i>
+            <span>1</span>
+            <i class="fa-solid fa-plus" #adultCountIncrement></i>
+        </div>
+    </div>
+    <div class="children-count">
+        <p>Children</p>
+        <div class="children-counter-wrapper">
+            <i class="fa-solid fa-minus"></i>
+            <span>0</span>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+    </div>
+</div>

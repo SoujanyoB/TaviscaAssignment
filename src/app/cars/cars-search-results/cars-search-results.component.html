@@ -1,0 +1,21 @@
+<div class="activity-search-results-wrapper">
+    <div class="modifySearchDiv">
+        <app-search-bar></app-search-bar>
+        <app-check-in-date-picker></app-check-in-date-picker>
+        <app-check-out-date-picker></app-check-out-date-picker>
+        <app-search-button></app-search-button>
+    </div>
+    <div class="content-filter-wrapper">
+        <div class="filter-search">
+
+            Filter
+        </div>
+        <div class="search-results">
+            <div *ngFor="let car of vehicles">
+                <app-single-car-search-card [image]="car.images[0]" [name]="car.name" [type]="car.type"
+                    [startingFare]="getFareForVehicle(car)"></app-single-car-search-card>
+            </div>
+        </div>
+    </div>
+
+</div>

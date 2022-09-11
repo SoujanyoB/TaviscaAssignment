@@ -1,0 +1,20 @@
+.activities-search-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+app-search-bar {
+    width: 45vw;
+}
+
+
+.search-button-holder {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

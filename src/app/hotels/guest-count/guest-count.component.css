@@ -1,0 +1,52 @@
+.traveller-count-wrapper {
+    width: fit-content;
+    border-radius: 8px;
+    border: 1px solid #727483;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    width: 100%;
+}
+
+.traveller-count-holder {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+}
+
+.traveller-count-modifier-popup {
+    visibility: collapse;
+    position: absolute;
+    border-radius: 8px;
+    padding: 16px 16px;
+    background: white;
+    box-shadow: 2px 3px 7px #cccccc;
+    width: 20vw;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.traveller-count-modifier-popup > p {
+    font-size: 18px;
+}
+
+.doneButtonHolder {
+    display: flex;
+    justify-content: center;
+}
+
+
+.doneButtonHolder>button {
+    background-color: #3662D8;
+    color: white;
+    font-weight: bold;
+    padding: 16px 64px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.doneButtonHolder>button:hover {
+    background-color: #2950b8;
+}

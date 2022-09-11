@@ -1,0 +1,13 @@
+.searchButtonHolder>button {
+    background-color: #3662D8;
+    color: white;
+    font-weight: bold;
+    padding: 16px 64px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.searchButtonHolder>button:hover {
+    background-color: #2950b8;
+}

@@ -1,0 +1,86 @@
+.app-download-card {
+    border: 1px solid rgba(146, 145, 145, 0.5);
+    border-radius: 8px;
+    margin: 0;
+    display: flex;
+}
+
+img {
+    max-width: 400px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.advertisement-content-holder {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.advertisement-content-holder > div > h4 {
+    margin: 8px 0;
+}
+
+form {
+    display: flex;
+}
+
+
+
+form > * {
+    margin-right: 1rem;
+}
+
+.select-wrap, .input-wrap, .button-wrap {
+    border: 1px solid #777;
+    border-radius: 4px;
+    padding: 0 5px;
+    max-width: 150px;
+    background-color: #fff;
+    position: relative;
+}
+
+.select-wrap label, .input-wrap label {
+    font-size: 14px;
+    color: #777;
+    padding: 0 4px;
+    position: absolute;
+    top: 0;
+}
+
+.input-wrap label {
+    top: 4px;
+}
+
+select, input {
+    background-color: #fff;
+    border: 0px;
+    height: 40px;
+    font-size: 16px;
+    overflow: hidden;
+    max-width: 150px;
+    padding-top: 8px;
+}
+
+input {
+    padding-left: 4px;
+}
+
+select:focus, input:focus {
+    outline: none;
+}
+
+.button-wrap {
+    background-color: #2950b8;
+    color: white;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+img.qr-code {
+    max-width: 164px;
+    max-height: 164px;
+}
+
+

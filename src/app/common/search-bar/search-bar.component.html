@@ -1,0 +1,12 @@
+<div>
+    <div class="search-bar-holder">
+        <i class="fa-solid fa-location-dot fa-lg"></i>
+        <input type="text" name="search-bar-input" id="search-bar-input" #searchBarInput placeholder="Going to"
+            (keyup)="showAutosuggestResultsOnKeyReleased($event, autoSuggestContainer)">
+    </div>
+    <div class="auto-suggest-results-container" #autoSuggestContainer>
+        <ul>
+            <li *ngFor="let searchResult of autoSuggestSearchResults;" (click)="handleListItemClick($event, searchBarInput)">{{searchResult.n}}, {{searchResult.c}}</li>
+        </ul>
+    </div>
+</div>

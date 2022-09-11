@@ -1,0 +1,21 @@
+.hotels-search-holder {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    column-gap: 20px;
+}
+
+app-search-bar {
+    width: 25vw;
+}
+
+app-guest-count {
+    width: 15vw;
+}
+
+.search-button-holder {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

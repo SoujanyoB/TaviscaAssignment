@@ -1,0 +1,29 @@
+.global-footer-holder {
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    padding-right: 3rem;
+}
+
+table {
+    text-align: left;
+}
+
+
+table tbody {
+    font-size: 12px;
+}
+
+table tbody tr td {
+    padding: 0.5rem 3rem;
+}
+
+table thead tr th {
+    padding: 0 3rem 0.5rem;
+}

@@ -1,0 +1,27 @@
+.activity-card-wrapper {
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 1px 2px 5px #cccccc;
+    margin: 16px 0;
+}
+
+
+.activity-card-wrapper > img {
+    max-width: 250px;
+    max-height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.information {
+    padding: 16px;
+    border-right: 1px solid #cccccc;
+}
+
+.price {
+    padding: 16px;
+}
+
+app-search-button {
+    margin: 4px 0;
+}

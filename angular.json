@@ -92,10 +92,14 @@
             "styles": [
               "src/styles.css"
             ],
+            "codeCoverage": true,
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "79a72d41-25a8-40b1-95ab-1185ce4b559e"
   }
 }

@@ -1,0 +1,16 @@
+<div class="traveller-count-wrapper" (click)="showTravellerCountModifier(travellerCountModifierPopup)">
+    <i class="fa-solid fa-user fa-lg"></i>
+    <div class="traveller-count-holder">
+        <p>Travellers</p>
+        <p>1 room, 2 travellers</p>
+    </div>
+</div>
+<div class="traveller-count-modifier-popup" #travellerCountModifierPopup>
+    <p>Travellers</p>
+    <div class="room-details">
+        <app-add-hotel-room>1</app-add-hotel-room>
+    </div>
+    <div class="doneButtonHolder">
+        <button type="button" (click)="closeTravellerCountModifier(travellerCountModifierPopup)">Done</button>
+    </div>
+</div>

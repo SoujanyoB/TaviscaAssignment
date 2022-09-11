@@ -1,0 +1,23 @@
+<div class="search-form-content-wrapper">
+    <div class="search-form-nav">
+        <button class="active" data-section="FLIGHTS" (click)="onClickButton($event)">Flights</button>
+        <button data-section="HOTELS" (click)="onClickButton($event)">Hotels</button>
+        <button data-section="CARS" ng-model="section" (click)="onClickButton($event)">Cars</button>
+        <button data-section="ACTIVITIES" ng-model="section" (click)="onClickButton($event)">Activities</button>
+        <button data-section="CRUISES" ng-model="section" (click)="onClickButton($event)">Cruises</button>
+    </div>
+    <div class="search-form-holder">
+        <div *ngIf="activeButton == 'FLIGHTS'">
+            
+        </div>
+        <div *ngIf="activeButton == 'ACTIVITIES'">
+            <app-activities-search></app-activities-search>
+        </div>
+        <div *ngIf="activeButton == 'HOTELS'">
+            <app-hotels-search></app-hotels-search>
+        </div>
+        <div *ngIf="activeButton == 'CARS'">
+            <app-cars-search></app-cars-search>
+        </div>
+    </div>
+</div>

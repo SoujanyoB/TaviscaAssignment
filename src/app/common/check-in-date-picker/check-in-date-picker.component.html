@@ -1,0 +1,7 @@
+<div class="date-picker-wrapper" (click)="onClickDatePicker(checkInDate)">
+    <i class="fa-regular fa-lg fa-calendar"></i>
+    <div class="date-picker-title-holder">
+        <p>Check in</p>
+        <input type="date" name="checkInDate" id="checkInDate" (input)="getCheckInDate(checkInDate)" #checkInDate min="{{initialDateValue}}">
+    </div>
+</div>

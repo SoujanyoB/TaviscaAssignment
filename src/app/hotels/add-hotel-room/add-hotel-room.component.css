@@ -1,0 +1,47 @@
+.add-room-guests-container {
+
+    padding: 8px 0;
+
+}
+
+.room-number {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.adults-count, 
+.children-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adults-counter-wrapper, 
+.children-counter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    padding: 8px 4px;
+}
+
+.adults-counter-wrapper > i, 
+.children-counter-wrapper > i {
+    border-radius: 50%;
+    border: 1px solid #343b53;
+    padding: 4px;
+}
+
+.adults-counter-wrapper > i:hover, 
+.children-counter-wrapper > i:hover {
+    cursor: pointer;
+    border: 1px solid #3662d8;
+    color: #3662d8;
+}
+
+.adults-counter-wrapper > span, 
+.children-counter-wrapper > span {
+    padding: 4px;
+}
+
+
