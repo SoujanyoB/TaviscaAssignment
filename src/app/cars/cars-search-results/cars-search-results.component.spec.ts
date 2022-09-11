@@ -44,9 +44,6 @@ describe('CarsSearchResultsComponent', () => {
   });
   
 
-
-  
-
 });
 
 
